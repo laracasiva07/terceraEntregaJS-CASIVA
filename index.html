@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Cinzel:wght@800&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="./index.html">
+                <img src="./img/logo3-removebg-preview.png" alt="casita dibujada con puerta roja y techo en caida para la izquierda"></a>
+            <h1 class="titulo">CORRALÓN CURA BROCHERO</h1>
+        </div>
+    </header>
+    <main>
+        <div id="filtros">
+            <input type="text" id="buscador" placeholder="Buscar productos..." />
+            <select id="filtroCategoria">
+                <option value="todos">Todos</option>
+                <option value="materiales de construccion">Materiales de construcción</option>
+                <option value="herramientas">Herramientas</option>
+                <option value="instalaciones">Instalaciones</option>
+                <option value="accesorios">Accesorios</option>
+            </select>
+        </div>
+        <button id="productosCarrito">Carrito</button>
+        <div id="contenedorProductos"></div>
+        <div class="oculta" id="carrito"></div>
+        <div id="totalCarrito"></div>
+    </main>
+    <footer>
+        <section class="footer">
+            <div class="letras">
+                <ul>
+                    <li>
+                        <a href="./index.html">
+                            INICIO
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./pages/productos.html" target="">
+                            PRODUCTOS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./pages/sucursales.html" target="">
+                            SUCURSALES
+                        </a>                
+                    </li>
+                    <li>
+                        <a href="./pages/nosotros.html" target="">
+                            NOSOTROS
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./pages/contacto.html" target="">
+                            CONTACTO
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="derechos">
+                <p>TODOS LOS DERECHOS RESERVADOS</p>
+            </div>
+        </section>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
